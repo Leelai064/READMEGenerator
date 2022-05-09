@@ -8,14 +8,9 @@ const filename = "README.md"
 // TODO: Create an array of questions for user input
 const questions = [
   {
-    type: 'Input',
-    name: 'project title',
+    type: 'input',
+    name: 'title',
     message: 'What is your project title',
-  },
-  {
-    type: 'list',
-    name:'license',
-    message: 'What kind of license should your project have?',
   },
   {
     type: 'input',
@@ -26,13 +21,18 @@ const questions = [
     type: 'input',
     name: 'Email',
     message: 'What is your email username?'
+  },
+  {
+    type: 'list',
+    name:'license',
+    message: 'What kind of license should your project have?',
+    choices: ['MIT','GNU']
   }
- 
 ];
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, fileresponses) { 
-  fs.writeToFile(fileName, fileresponses, (err)=> {
+  fs.writeFile(fileName, fileresponses, (err)=> {
   err? console.error(err): console.log('Written File');
 });
 }
@@ -46,10 +46,9 @@ function init() {
    writeToFile(filename,fileresponses)
  });
 }
-inquirer
-.prompt(questions)
+
 // // Function call to initialize app
-// init();
+init();
 
 // var data = {
 //   numFakes: 2
