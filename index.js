@@ -10,7 +10,12 @@ const questions = [
   {
     type: 'input',
     name: 'title',
-    message: 'What is your project title',
+    message: 'What is your project title?',
+  },
+  {
+    type: 'input',
+    name:'Description',
+    message: 'Give a brief description of your project:'
   },
   {
     type: 'input',
@@ -23,10 +28,30 @@ const questions = [
     message: 'What is your email username?'
   },
   {
+    type: 'input',
+    name:'installation',
+    message: 'What installs are needed to complete this project?'
+  },
+  {
+    type: 'input',
+    name:'usage',
+    message: 'Please provide the usage of this project'
+  },
+  {
     type: 'list',
     name:'license',
     message: 'What kind of license should your project have?',
     choices: ['MIT','GNU']
+  },
+  {
+    type: 'input',
+    name:'contributions',
+    message: 'Please provide the usage of this project'
+  },
+  {
+    type: 'input',
+    name:'tests',
+    message: 'Please provide the tests you used for this project:'
   }
 ];
 

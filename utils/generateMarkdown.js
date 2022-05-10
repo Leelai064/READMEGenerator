@@ -3,9 +3,9 @@
 function renderLicenseBadge(license) {
   switch (license){
     case 'MIT':
-      return '![Licesne:MIT](https://imng.shields.io/badge/License-MIT-yellow.svg)';
+      return '![Licesne:MIT](https://img.shields.io/badge/License-MIT-yellow.svg)';
       case 'GNU':
-        return '!License-GPLv3-blue.svg)';
+        return '![License-GPLv3](https://img.shields.io/badge/License-GPULv3-blue.svg)';
         default:
           return '';
   };
@@ -28,7 +28,11 @@ function renderLicenseLink(license) {
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
 function renderLicenseSection(license) {
+return `
 
+[license]${license};
+
+  `
 }
 //lookup github licenses and how it works
 // TODO: Create a function to generate markdown for README
@@ -38,10 +42,55 @@ function generateMarkdown(responses) {
   // you have to figure out why...
   return (
     `
-    #Title
-    ${responses.title}
+# Title
+
+${responses.title}
+
+#Table of Contents
+* [Title]
+* [Description]
+* [GitHub]
+* [Email]
+* [Installation]
+* [Usage]
+* [License]
+* [Contributions]
+* [Tests]
+
+
+##Description
+
+${responses.Description}
+
+##GitHUB
+
+${responses.GitHub}
+
+##Email
+
+${responses.Email}
+
+##Installation
+
+${responses.installation}
+
+##Usage
+
+${responses.usage}
+
+##License
+
+${responses.license}
+
+##Contributions
+
+${responses.contributions}
+
+##Tests
+
+${responses.tests}
     `
   )
 }
-//mardown
+//markdown
 module.exports = generateMarkdown;
