@@ -46,16 +46,16 @@ function generateMarkdown(responses) {
 
 ${responses.title}
 
-#Table of Contents
-* [Title]
-* [Description]
-* [GitHub]
-* [Email]
-* [Installation]
-* [Usage]
-* [License]
-* [Contributions]
-* [Tests]
+##Table of Contents
+* [Title](#title)
+* [Description](#Description)
+* [GitHub](#GitHub)
+* [Email](#Email)
+* [Installation](#installation)
+* [Usage](#usage)
+* [License](#license)
+* [Contributions](#contributions)
+* [Tests](#tests)
 
 
 ##Description
