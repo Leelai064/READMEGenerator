@@ -3,7 +3,7 @@ const inquirer = require('inquirer');
 
 const md = require('./utils/generateMarkdown');
 const fs = require('fs')
-const filename = "README.md"
+const fileName = "README.md"
 
 // TODO: Create an array of questions for user input
 const questions = [
@@ -41,12 +41,7 @@ const questions = [
     type: 'list',
     name:'license',
     message: 'What kind of license should your project have?',
-    choices: ['MIT','GNU']
-  },
-  {
-    type: 'input',
-    name:'contributions',
-    message: 'Please provide the usage of this project'
+    choices: ['MIT','GNU','Eclipse']
   },
   {
     type: 'input',
@@ -75,7 +70,3 @@ function init() {
 // // Function call to initialize app
 init();
 
-// var data = {
-//   numFakes: 2
-// }
-// console.log(fakeStuff(data));

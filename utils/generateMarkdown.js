@@ -1,29 +1,35 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
-function renderLicenseBadge(license) {
-  switch (license){
-    case 'MIT':
-      return '![Licesne:MIT](https://img.shields.io/badge/License-MIT-yellow.svg)';
-      case 'GNU':
-        return '![License-GPLv3](https://img.shields.io/badge/License-GPULv3-blue.svg)';
-        default:
-          return '';
-  };
+const licenseBadge = function renderLicenseBadge(license) {
+  if (license == 'MIT'){
+    return '[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)';
+  }
+  else
+  if(license == 'GNU'){
+    return '[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)';
+  }
+  else
+  if(license == 'Eclipse'){
+    return '[![License](https://img.shields.io/badge/License-EPL_1.0-red.svg)](https://opensource.org/licenses/EPL-1.0)'
+  }
 }
 
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
-function renderLicenseLink(license) {
-  switch (license){
-  case 'MIT':
-    return '![License:MIT](https://opensource.org/licenses/MIT)';
-    case 'GNU':
-      return '![License:GPU](https://www.gnu.org/licenses/gpl-3.0)';
-      default:
-        return '';
-
+const licenseLink = function renderLicenseLink(license) {
+ if (license == 'MIT'){
+  return 'Please click the link for more info.(https://opensource.org/licenses/EPL-1.0)'
+ }
+ else
+ if(license == 'GNU'){
+  return 'Please click the link for more info.(https://www.gnu.org/licenses/gpl-3.0)'
+ }
+ else
+ if(license == 'Eclipse'){
+  return 'Please click the link for more info.(https://opensource.org/licenses/EPL-1.0)'
+ }
 };
-}
+
 
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
