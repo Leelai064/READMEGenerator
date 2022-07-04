@@ -1,26 +1,31 @@
 # README Generator
 
-##Description
+## Description
 
 This project demonstrats Node.Js skills. By using installations such as inquire, and installing packages such as the two packages used in javascript program. These programs asks questions from the user through the terminal and imports the users answers to a README.md file (seperate from this file of course).
 
 
-##GitHUB
+## GitHUB
 
 https://github.com/Leelai064/READMEGenerator
 
-##Installation
+## Installation
 
 * Inquire
 * package.json
 * package-lock.json
 
-##Video Tutorial
+## Terminal Screenshot
+
+![Screenshot](./assets/TerminalScreenshot.png)
+
+## Video Tutorial
+
 Below is a link to a video tutorial of how this process works:
 
 https://drive.google.com/file/d/1m3efrJPmTyj1w7raCMwYSF1bl2oxlgBi/view?usp=sharing
 
-##Generator Criteria
+## Generator Criteria
 
 ```md
 GIVEN a command-line application that accepts user input
