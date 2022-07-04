@@ -39,7 +39,7 @@ function generateMarkdown(responses) {
 
  ${responses.title}
 
- ##Table of Contents
+ ## Table of Contents
  * [Title](#title)
  * [Description](#Description)
  * [GitHub](#GitHub)
@@ -51,35 +51,35 @@ function generateMarkdown(responses) {
  * [Tests](#tests)
 
 
- ##Description
+ ## Description
 
  ${responses.Description}
 
- ##GitHUB
+ ## GitHUB
 
  ${responses.GitHub}
 
- ##Email
+ ## Email
 
  ${responses.Email}
 
- ##Installation
+ ## Installation
 
  ${responses.installation}
 
- ##Usage
+ ## Usage
 
  ${responses.usage}
 
- ##License
- ${Badge(data.license)}
- ${responses.license}
+ ## License
+ ${licenseBadge(responses.license)}
+ ${licenseLink(responses.license)}
 
- ##Contributions
+ ## Contributions
 
  ${responses.contributions}
 
- ##Tests
+ ## Tests
 
 ${responses.tests}
     `;
