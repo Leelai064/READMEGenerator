@@ -16,8 +16,9 @@ https://github.com/Leelai064/READMEGenerator
 * package-lock.json
 
 ##Video Tutorial
+Below is a link to a video tutorial of how this process works:
 
-https://github.com/Leelai064/READMEGenerator/blob/main/README.md%20-%20READMEGenerator%20-%20Visual%20Studio%20Code%202022-05-09%2023-13-22.mp4
+https://drive.google.com/file/d/1m3efrJPmTyj1w7raCMwYSF1bl2oxlgBi/view?usp=sharing
 
 ##Generator Criteria
 
