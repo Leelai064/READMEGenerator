@@ -2,7 +2,7 @@
  
  # Title
 
- 1
+ README Generator
 
  ## Table of Contents
  * [Title](#title)
@@ -18,35 +18,33 @@
 
  ## Description
 
- 1
+ The purpose of this project is to allow the user easy access to a professional README file for their project needs.
 
  ## GitHUB
 
- 1
+ http://Leelai064.github.com
 
- ##Email
+ ## Email
 
- 1
+ leelai.hayslett@gmail.com
 
- ##Installation
+ ## Installation
 
- 1
+ inquirer
 
- ##Usage
+ ## Usage
 
- 1
+ The usage of this project is to have a deeper understanding of Node.js and termainl interaction.
 
- ##License
-
- [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-
+ ## License
+ [![License](https://img.shields.io/badge/License-EPL_1.0-red.svg)](https://opensource.org/licenses/EPL-1.0)
  Please click the link for more info.(https://opensource.org/licenses/EPL-1.0)
 
- ##Contributions
+ ## Contributions
 
- undefined
+ I contributed to the Javascript code, package.json downloads and the Project README.
 
- ##Tests
+ ## Tests
 
-1
+I used the terminal until no errors were shown.
     
