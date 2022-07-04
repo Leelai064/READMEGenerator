@@ -1,42 +1,50 @@
-# README Generator
 
-##Description
+ 
+ # Title
 
-This project demonstrats Node.Js skills. By using installations such as inquire, and installing packages such as the two packages used in javascript program. These programs asks questions from the user through the terminal and imports the users answers to a README.md file (seperate from this file of course).
+ README Generator
+
+ ## Table of Contents
+ * [Title](#title)
+ * [Description](#Description)
+ * [GitHub](#GitHub)
+ * [Email](#Email)
+ * [Installation](#installation)
+ * [Usage](#usage)
+ * [License](#license)
+ * [Contributions](#contributions)
+ * [Tests](#tests)
 
 
-##GitHUB
+ ## Description
 
-https://github.com/Leelai064/READMEGenerator
+ The purpose of this project is to allow the user easy access to a professional README file for their project needs.
 
-##Installation
+ ## GitHUB
 
-* Inquire
-* package.json
-* package-lock.json
+ http://Leelai064.github.com
 
-##Video Tutorial
-Below is a link to a video tutorial of how this process works:
+ ## Email
 
-https://drive.google.com/file/d/1m3efrJPmTyj1w7raCMwYSF1bl2oxlgBi/view?usp=sharing
+ leelai.hayslett@gmail.com
 
-##Generator Criteria
+ ## Installation
 
-``
-GIVEN a command-line application that accepts user input
-WHEN I am prompted for information about my application repository
-THEN a high-quality, professional README.md is generated with the title of my project and sections entitled Description, Table of Contents, Installation, Usage, License, Contributing, Tests, and Questions
-WHEN I enter my project title
-THEN this is displayed as the title of the README
-WHEN I enter a description, installation instructions, usage information, contribution guidelines, and test instructions
-THEN this information is added to the sections of the README entitled Description, Installation, Usage, Contributing, and Tests
-WHEN I choose a license for my application from a list of options
-THEN a badge for that license is added near the top of the README and a notice is added to the section of the README entitled License that explains which license the application is covered under
-WHEN I enter my GitHub username
-THEN this is added to the section of the README entitled Questions, with a link to my GitHub profile
-WHEN I enter my email address
-THEN this is added to the section of the README entitled Questions, with instructions on how to reach me with additional questions
-WHEN I click on the links in the Table of Contents
-THEN I am taken to the corresponding section of the README
-``
+ inquirer
 
+ ## Usage
+
+ The usage of this project is to have a deeper understanding of Node.js and termainl interaction.
+
+ ## License
+ [![License](https://img.shields.io/badge/License-EPL_1.0-red.svg)](https://opensource.org/licenses/EPL-1.0)
+ Please click the link for more info.(https://opensource.org/licenses/EPL-1.0)
+
+ ## Contributions
+
+ I contributed to the Javascript code, package.json downloads and the Project README.
+
+ ## Tests
+
+I used the terminal until no errors were shown.
+    
